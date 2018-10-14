@@ -1,1 +1,67 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    <title>Cookie Hangman</title>
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <div class="card">
+            <br>
+            <h1>-*~Cookie Hangman~*-</h1>
+            <br>
+        </div>
+
+        <div>
+            <br>
+            <h2 class="container">Press any key to get started!</h2>
+            <br>
+        </div>
+
+        <div class="card w-50 mx-auto">
+            <br>
+            <h3>Wins:</h3>
+            <div>
+                <p id="currentWins">???</p>
+            </div>
+
+            <br>
+            <h3>Current Word:</h3>
+            <div>
+                <p id="currentWord">???</p>
+            </div>
+
+            <br>
+            <h3>Number of Guesses Remaining:</h3>
+            <div>
+                <p id="remainingGuesses">???</p>
+            </div>
+
+            <br>
+            <h3>Letters Already Guessed:</h3>
+            <div>
+                <p id="lettersGuessed">???</p>
+            </div>
+
+            <br>
+            <h1 id=youWin></h1>
+            <h1 id=youLose></h1>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

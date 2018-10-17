@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             currentLives--
             paintVariables();
             if (currentLives == 0){
-                youLose.innerText = "You've Lose. Press any key to try again!"
+                youLose.innerText = "You've lost! Press any key to try again!"
                 document.removeEventListener("keyup", getGuess);
                 document.addEventListener("keyup", start);
             };

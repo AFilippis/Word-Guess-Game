@@ -76,12 +76,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     function getGuess(event){
         guess = event.key;
+        
         if(!testCharacter (guess, alphabet)){
             return
         }
+
         if(testCharacter (guess, userGuesses)){
            return
         }
+
         userGuesses += guess;
         if (testCharacter (guess, workingWord)){
             for (i = 0; i < workingWord.length; i++){
